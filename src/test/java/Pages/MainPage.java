@@ -40,6 +40,7 @@ public class MainPage extends BasePage {
             al.add(finalIntPrice);
         }
         Collections.sort(al);
+        System.out.println(al);
         for (int u = 0; u < countOfElements; u++) {
             int finalStrPrice = al.get(u);
             writer.write(finalStrPrice + System.getProperty("line.separator"));
