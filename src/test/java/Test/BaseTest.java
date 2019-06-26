@@ -1,3 +1,6 @@
+package Test;
+
+import Pages.MainPage;
 import org.junit.After;
 import org.junit.Before;
 import org.openqa.selenium.WebDriver;
@@ -9,7 +12,6 @@ import java.util.concurrent.TimeUnit;
 public class BaseTest {
     public WebDriver webDriver;
     public MainPage mainPage;
-
 
 
     @Before
