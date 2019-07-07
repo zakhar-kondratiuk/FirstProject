@@ -19,13 +19,13 @@
             <groupId>javax.mail.activator</groupId>
             <artifactId>activator</artifactId>
             <scope>system</scope>
-            <systemPath>/home/sanitarskiy/IdeaProjects/QALight_PricesToFile_PageObject/src/test/java/libs/activation.jar</systemPath>
+            <systemPath>${basedir}/src/test/java/libs/activation.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>javax.mail.internet</groupId>
             <artifactId>internet</artifactId>
             <scope>system</scope>
-            <systemPath>/home/sanitarskiy/IdeaProjects/QALight_PricesToFile_PageObject/src/test/java/libs/mail.jar</systemPath>
+            <systemPath>${basedir}/src/test/java/libs/mail.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
