@@ -48,7 +48,7 @@
     <orderEntry type="module-library">
       <library name="Maven: javax.mail.activator:activator:unknown">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/src/test/java/libs/activation.jar!/" />
+          <root url="jar://$MODULE_DIR$/libs/activation.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -57,7 +57,7 @@
     <orderEntry type="module-library">
       <library name="Maven: javax.mail.internet:internet:unknown">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/src/test/java/libs/mail.jar!/" />
+          <root url="jar://$MODULE_DIR$/libs/mail.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
