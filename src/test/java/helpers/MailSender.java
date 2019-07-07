@@ -78,8 +78,8 @@ public class MailSender {
     public static void mailFromfile (String myfile, String subject, String message, ArrayList<String> files) throws IOException {
         String host = "smtp.gmail.com";
         String port = "587";
-        String mailFrom = "aditti030188@gmail.com";
-        String password = "030188Qwerty";
+        String mailFrom = "sanitarskiytest@gmail.com";
+        String password = "123QWEqwe";
 
         int countOfFiles = files.size();
         String[] attachFiles = new String[countOfFiles];
