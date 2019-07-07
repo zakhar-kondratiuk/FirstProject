@@ -16,18 +16,6 @@
     </properties>
     <dependencies>
         <dependency>
-            <groupId>javax.mail.activator</groupId>
-            <artifactId>activator</artifactId>
-            <scope>system</scope>
-            <systemPath>${basedir}/libs/activation.jar</systemPath>
-        </dependency>
-        <dependency>
-            <groupId>javax.mail.internet</groupId>
-            <artifactId>internet</artifactId>
-            <scope>system</scope>
-            <systemPath>${basedir}/libs/mail.jar</systemPath>
-        </dependency>
-        <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
             <version>${junit.jupiter.version}</version>
