@@ -17,6 +17,7 @@ public class WritingPricesTest extends BaseTest {
         ArrayList<String> files1 = new ArrayList<>();
         files1.add( "/home/sanitarskiy/IdeaProjects/QALight_PricesToFile_PageObject/prices.txt");
         files1.add( "/home/sanitarskiy/IdeaProjects/QALight_PricesToFile_PageObject/pom.xml");
+//        MailSender1.sendFromFile("sanitarskiy7@gmail.com", "123QWEqwe", "this message is for test attach files", files1);
         MailSender.mailFromfile("emails.txt", "123QWEqwe", "this message is for test attach files", files1);
  
     }
