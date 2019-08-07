@@ -23,28 +23,4 @@ public class MainPage extends BasePage {
         this.webDriver = webDriver;
         PageFactory.initElements(webDriver, this);
     }
-
-    public void getAllPrices() {
-        moreCoursesButton.click();
-    }
-
-    public void getPricesToFile() throws IOException {
-        FileWriter writer = new FileWriter("prices.txt");
-        int countOfElements = pricesOfCourses.size();
-        int i;
-        ArrayList<Integer> al = new ArrayList<Integer>();
-        for (i = 0; i < countOfElements; i++) {
-            WebElement eachPrice = pricesOfCourses.get(i);
-            String price = eachPrice.getText().replace(" грн", "").replace(" ", "");
-            int finalIntPrice = Integer.parseInt(price);
-            al.add(finalIntPrice);
-        }
-        Collections.sort(al);
-        System.out.println(al);
-        for (int u = 0; u < countOfElements; u++) {
-            int finalStrPrice = al.get(u);
-            writer.write(finalStrPrice + System.getProperty("line.separator"));
-        }
-        writer.close();
-    }
 }
